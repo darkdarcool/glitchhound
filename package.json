@@ -1,0 +1,22 @@
+{
+ "name": "glitchhound",
+ "version": "1.0.0",
+ "main": "./dist/mod.js",
+ "type": "module",
+ "license": "MIT",
+ "scripts": {
+  "build": "tsc",
+  "run": "node --no-warnings ./dist/mod.js",
+  "all": "yarn build && yarn run run"
+ },
+ "dependencies": {
+  "@types/node": "^18.13.0",
+  "glitchhound": "^1.0.0",
+  "typescript": "^4.6.3"
+ },
+ "readme": "./README.md",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/darkdarcool/glitchhound"
+ }
+}
